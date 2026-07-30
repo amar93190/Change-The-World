@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="theme-color" content="#050914" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%236ea8ff' stroke-width='1.5'/%3E%3Ccircle cx='21' cy='13' r='3' fill='%23ff5a3c'/%3E%3C/svg%3E"
+    />
+    <title>Terre — Observatoire des crises oubliées</title>
+    <meta
+      name="description"
+      content="Une carte vivante des crises humanitaires et conflits oubliés. Données sourcées (ONU, ONG). Sensibilisation, pas de pathos."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Écran d'ouverture -->
+    <section id="intro" class="intro" aria-label="Introduction">
+      <div class="intro__seq">
+
+        <!-- Bloc 1 : accroche -->
+        <div class="intro__block">
+          <p class="iline" id="iline-0">Il y a des crises</p>
+          <p class="iline iline--punch" id="iline-1">dont personne ne parle.</p>
+        </div>
+
+        <!-- Séparateur -->
+        <div class="intro__sep" id="i-sep" aria-hidden="true"></div>
+
+        <!-- Bloc 2 : les trois lignes glitch -->
+        <div class="intro__block intro__block--glitch">
+          <p class="iline iline--dim" id="ig-0">Des guerres sans <em>caméras</em>.</p>
+          <p class="iline iline--dim" id="ig-1">Des famines sans <em>breaking&nbsp;news</em>.</p>
+          <p class="iline iline--dim" id="ig-2">Des exodes sans <em>hashtags</em>.</p>
+        </div>
+
+        <!-- Bloc 3 : compteur -->
+        <div class="intro__ctr" id="i-ctr">
+          <span id="counter-value" class="intro__ctr-num">0</span>
+          <span class="intro__ctr-sub" id="i-sub">personnes attendent qu'on les voie.</span>
+          <span class="intro__ctr-src">est. OCHA 2024 — <a href="#" data-action="method" tabindex="-1">voir méthodologie</a></span>
+        </div>
+
+        <!-- Bouton -->
+        <button id="enter-btn" class="intro__btn" type="button" disabled>
+          Ouvrir l'observatoire
+        </button>
+
+      </div>
+      <div class="intro__scanline" aria-hidden="true"></div>
+      <div class="intro__noise" aria-hidden="true"></div>
+    </section>
+
+    <!-- Scène 3D -->
+    <canvas id="scene"></canvas>
+
+    <!-- HUD -->
+    <header id="hud" class="hud hud--hidden">
+      <div class="hud__brand">
+        <span class="hud__dot"></span>
+        <span class="hud__name">TERRE</span>
+        <span class="hud__sub">observatoire des crises</span>
+      </div>
+      <nav class="hud__nav">
+        <button class="hud__link" data-action="reset">Vue globale</button>
+        <button class="hud__link" data-action="method">Méthodologie &amp; sources</button>
+      </nav>
+    </header>
+
+    <!-- Légende -->
+    <div id="legend" class="legend legend--hidden">
+      <div class="legend__row">
+        <span class="legend__swatch legend__swatch--major"></span> Crise active majeure
+      </div>
+      <div class="legend__row">
+        <span class="legend__swatch legend__swatch--watch"></span> Zone de veille
+      </div>
+      <p class="legend__hint">Cliquez un point pour ouvrir la fiche.</p>
+    </div>
+
+    <!-- Panneau de crise -->
+    <aside id="panel" class="panel panel--hidden" aria-hidden="true">
+      <button id="panel-close" class="panel__close" aria-label="Fermer">✕</button>
+      <div id="panel-body" class="panel__body"></div>
+    </aside>
+
+    <!-- Modal méthodologie -->
+    <div id="method-modal" class="modal modal--hidden" aria-hidden="true">
+      <div class="modal__backdrop" data-action="close-method"></div>
+      <div class="modal__card">
+        <button class="modal__close" data-action="close-method" aria-label="Fermer">✕</button>
+        <div id="method-body"></div>
+      </div>
+    </div>
+
+    <div id="tooltip" class="tooltip tooltip--hidden"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

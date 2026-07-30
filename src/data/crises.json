@@ -1,0 +1,661 @@
+{
+  "meta": {
+    "updated": "2025",
+    "disclaimer": "Les chiffres sont des estimations d'agences humanitaires, souvent incertaines et révisées. Ils indiquent des ordres de grandeur, pas des décomptes exacts."
+  },
+  "crises": [
+    {
+      "id": "rdc-est",
+      "name": "R.D. Congo — Est",
+      "region": "Nord-Kivu, Sud-Kivu, Ituri · Afrique centrale",
+      "lat": -1.68,
+      "lon": 29.22,
+      "severity": "major",
+      "type": "Conflit armé prolongé",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 7 M", "label": "personnes déplacées à l'intérieur du pays (est. OCHA, 2024)" },
+      "context": [
+        "L'est de la République démocratique du Congo est le théâtre de violences continues depuis la fin des années 1990, héritées en partie des guerres régionales qui ont suivi le génocide des Tutsi au Rwanda (1994). Plus de cent groupes armés y opèrent, aux motivations mêlées : contrôle de ressources minières (or, coltan, étain), rivalités communautaires locales, et ingérences d'États voisins.",
+        "Depuis 2021-2022, la résurgence du groupe armé M23 — que plusieurs rapports d'experts de l'ONU décrivent comme soutenu par le Rwanda, ce que Kigali conteste — a provoqué de nouveaux déplacements massifs autour de Goma. Le conflit ne se réduit pas à un affrontement « Rwanda contre Congo » : il superpose enjeux fonciers, ethniques, économiques et sécuritaires.",
+        "Les civils paient le prix fort : déplacements répétés, violences sexuelles utilisées comme arme de guerre, insécurité alimentaire, épidémies. Une des crises de déplacement les plus importantes au monde, et l'une des moins couvertes médiatiquement."
+      ],
+      "timeline": [
+        { "year": "1996–2003", "label": "Première et deuxième guerres du Congo ; millions de morts, en majorité indirects (maladie, faim)." },
+        { "year": "2012", "label": "Le M23 prend brièvement Goma avant de se retirer." },
+        { "year": "2021", "label": "Résurgence militaire du M23 dans le Nord-Kivu." },
+        { "year": "2024", "label": "Offensives et déplacements massifs ; camps saturés autour de Goma." }
+      ],
+      "sources": [
+        { "name": "OCHA — RDC", "url": "https://www.unocha.org/democratic-republic-congo" },
+        { "name": "HCR — Réfugiés RDC", "url": "https://www.unhcr.org/emergencies/democratic-republic-congo-emergency" },
+        { "name": "Human Rights Watch — RDC", "url": "https://www.hrw.org/africa/democratic-republic-congo" },
+        { "name": "Groupe d'experts ONU", "url": "https://www.un.org/securitycouncil/sanctions/1533/panel-of-experts" }
+      ],
+      "moreUrl": "https://www.unocha.org/democratic-republic-congo"
+    },
+    {
+      "id": "soudan",
+      "name": "Soudan",
+      "region": "Khartoum, Darfour, Kordofan · Afrique du Nord-Est",
+      "lat": 15.5,
+      "lon": 32.5,
+      "severity": "major",
+      "type": "Guerre civile",
+      "status": "complete",
+      "keyFigure": { "value": "> 11 M", "label": "personnes déplacées par la guerre (est. OIM/OCHA, 2024)" },
+      "context": [
+        "Depuis avril 2023, le Soudan est déchiré par une guerre ouverte entre l'armée régulière (SAF) et les paramilitaires des Forces de soutien rapide (RSF), deux camps issus du même appareil sécuritaire qui avaient d'abord renversé le pouvoir civil. Le conflit a transformé Khartoum en champ de bataille et ravivé les violences au Darfour.",
+        "Il en résulte ce que plusieurs agences décrivent comme la plus grande crise de déplacement au monde, doublée d'un risque de famine documenté dans certaines zones. L'accès humanitaire est gravement entravé et les chiffres restent incertains faute d'accès de terrain.",
+        "Des organisations de défense des droits humains ont documenté des atrocités visant des civils sur des bases ethniques au Darfour. La responsabilité incombe aux forces combattantes, non aux populations."
+      ],
+      "timeline": [
+        { "year": "2019", "label": "Chute d'Omar el-Béchir après un soulèvement populaire ; transition fragile." },
+        { "year": "2021", "label": "Coup d'État militaire interrompant la transition civile." },
+        { "year": "2023 (avril)", "label": "Éclatement de la guerre SAF vs RSF à Khartoum." },
+        { "year": "2024", "label": "Famine confirmée dans plusieurs zones ; déplacements records à l'échelle mondiale." }
+      ],
+      "sources": [
+        { "name": "OCHA — Soudan", "url": "https://www.unocha.org/sudan" },
+        { "name": "OIM — DTM Soudan", "url": "https://dtm.iom.int/sudan" },
+        { "name": "Amnesty International — Soudan", "url": "https://www.amnesty.org/en/location/africa/east-africa-the-horn-and-great-lakes/sudan/" },
+        { "name": "IPC — Analyse famine", "url": "https://www.ipcinfo.org/" }
+      ],
+      "moreUrl": "https://www.unocha.org/sudan"
+    },
+    {
+      "id": "yemen",
+      "name": "Yémen",
+      "region": "Péninsule arabique",
+      "lat": 15.35,
+      "lon": 44.2,
+      "severity": "major",
+      "type": "Conflit armé & crise humanitaire",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 18,2 M", "label": "personnes en insécurité alimentaire ; 4,5 M déplacés internes (est. ONU/OCHA, 2024)" },
+      "context": [
+        "Le Yémen est en guerre depuis 2014-2015, quand les forces Houthis ont pris le contrôle de Sanaa, forçant le gouvernement reconnu internationalement à l'exil. En 2015, une coalition militaire dirigée par l'Arabie saoudite est intervenue, déclenchant un conflit que l'ONU a qualifié à plusieurs reprises de « pire crise humanitaire au monde ».",
+        "La population civile est prise en étau entre les frappes aériennes de la coalition, les tactiques des Houthis et l'effondrement de l'économie et des services publics. Le système de santé est quasi-inexistant dans de nombreuses régions. Des épidémies de choléra à grande échelle ont frappé le pays.",
+        "Malgré une trêve partielle en 2022, la situation reste volatile. En 2023-2024, les Houthis ont lancé des attaques contre des navires en mer Rouge, ajoutant une dimension internationale au conflit."
+      ],
+      "timeline": [
+        { "year": "2014–2015", "label": "Prise de Sanaa par les Houthis ; intervention de la coalition dirigée par l'Arabie saoudite." },
+        { "year": "2018", "label": "Siège de Hodeidah, principal port d'entrée de l'aide humanitaire ; accord de Stockholm." },
+        { "year": "2022", "label": "Trêve ONU — la plus longue depuis le début du conflit (avril–octobre)." },
+        { "year": "2023–2024", "label": "Attaques Houthis sur des navires en mer Rouge ; reprise des tensions." }
+      ],
+      "sources": [
+        { "name": "OCHA — Yémen", "url": "https://www.unocha.org/yemen" },
+        { "name": "HCR — Yémen", "url": "https://www.unhcr.org/yemeni-emergency.html" },
+        { "name": "Human Rights Watch — Yémen", "url": "https://www.hrw.org/middle-east/north-africa/yemen" },
+        { "name": "PAM — Sécurité alimentaire Yémen", "url": "https://www.wfp.org/countries/yemen" }
+      ],
+      "moreUrl": "https://www.unocha.org/yemen"
+    },
+    {
+      "id": "myanmar-rohingyas",
+      "name": "Myanmar — Rohingyas",
+      "region": "État d'Arakan (Rakhine) · Asie du Sud-Est",
+      "lat": 20.5,
+      "lon": 93.0,
+      "severity": "major",
+      "type": "Persécution ethnique & conflit armé",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 1 M + 2,6 M", "label": "Rohingyas réfugiés (Bangladesh) + déplacés internes au Myanmar (est. HCR/OCHA, 2024)" },
+      "context": [
+        "Les Rohingyas, minorité à majorité musulmane de l'État d'Arakan, ont été victimes de déportations massives en 2017 quand les forces armées birmanes ont mené des opérations que la mission d'enquête de l'ONU a qualifiées d'actes présentant les caractéristiques d'un génocide. Plus de 700 000 personnes ont fui vers le Bangladesh en quelques semaines.",
+        "La situation s'est encore aggravée depuis le coup d'État militaire de février 2021, qui a précipité le Myanmar dans une guerre civile généralisée. Des dizaines de groupes de résistance se battent contre la junte ; les civils, toutes ethnies confondues, paient un lourd tribut.",
+        "Au Bangladesh, le camp de Cox's Bazar reste l'un des plus grands camps de réfugiés au monde, dans des conditions de surpopulation et de précarité extrêmes. Les perspectives de retour sont quasi-nulles tant que les persécutions persistent."
+      ],
+      "timeline": [
+        { "year": "1982", "label": "Loi sur la citoyenneté birmane — les Rohingyas en sont officiellement exclus." },
+        { "year": "2017 (août)", "label": "Opérations militaires massives en Arakan ; exode de plus de 700 000 personnes vers le Bangladesh en 3 mois." },
+        { "year": "2018", "label": "La mission d'enquête de l'ONU appelle à poursuivre les généraux birmans pour génocide." },
+        { "year": "2021 (février)", "label": "Coup d'État militaire au Myanmar. Début d'une résistance armée généralisée." },
+        { "year": "2023–2024", "label": "Progression des forces de résistance dans plusieurs États ; la junte perd du terrain." }
+      ],
+      "sources": [
+        { "name": "HCR — Urgence Rohingya", "url": "https://www.unhcr.org/rohingya-emergency.html" },
+        { "name": "OCHA — Myanmar", "url": "https://www.unocha.org/myanmar" },
+        { "name": "Human Rights Watch — Myanmar", "url": "https://www.hrw.org/asia/burma" },
+        { "name": "Mission d'enquête ONU — Myanmar", "url": "https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index" }
+      ],
+      "moreUrl": "https://www.unhcr.org/rohingya-emergency.html"
+    },
+    {
+      "id": "sahel",
+      "name": "Sahel central",
+      "region": "Mali, Burkina Faso, Niger · Afrique de l'Ouest",
+      "lat": 14.5,
+      "lon": -1.0,
+      "severity": "major",
+      "type": "Conflits armés multiples & déplacements",
+      "status": "complete",
+      "keyFigure": { "value": "> 3,5 M", "label": "déplacés internes dans la région (Burkina ~2M, Mali ~400K, Niger ~350K) (est. OCHA, 2024)" },
+      "context": [
+        "Le Sahel central est devenu en moins de dix ans l'une des régions les plus touchées par l'insécurité en Afrique. Des groupes armés affiliés à Al-Qaïda (JNIM) et à l'État islamique (IS-Sahel) ont étendu leur présence depuis le nord du Mali jusqu'aux zones rurales du Burkina Faso et du Niger. Les civils sont pris pour cible : attaques sur des villages, blocages de l'aide, exécutions sommaires, recrutements forcés.",
+        "Les trois pays ont connu des coups d'État militaires entre 2020 et 2023. Les nouvelles juntes ont expulsé les forces françaises et invité des mercenaires du groupe Wagner/Africa Corps. Ces changements n'ont pas amélioré la situation sécuritaire ; des exactions sont documentées de tous côtés.",
+        "La crise se superpose à une vulnérabilité structurelle : sécheresses récurrentes liées au changement climatique, pauvreté extrême, effondrement des services publics dans les zones rurales."
+      ],
+      "timeline": [
+        { "year": "2012", "label": "Rébellion touareg et coup d'État au Mali ; prise du nord par des groupes jihadistes." },
+        { "year": "2013", "label": "Intervention militaire française (opération Serval, puis Barkhane) pour stopper l'avancée jihadiste." },
+        { "year": "2020–2023", "label": "Coups d'État militaires au Mali (2020, 2021), Burkina Faso (2022) et Niger (2023)." },
+        { "year": "2022–2024", "label": "Expulsion des forces françaises ; arrivée de Wagner/Africa Corps ; intensification des attaques jihadistes." }
+      ],
+      "sources": [
+        { "name": "OCHA — Sahel", "url": "https://www.unocha.org/west-and-central-africa" },
+        { "name": "HCR — Déplacements au Sahel", "url": "https://www.unhcr.org/sahel-emergency.html" },
+        { "name": "Human Rights Watch — Burkina Faso", "url": "https://www.hrw.org/africa/burkina-faso" },
+        { "name": "ACLED — Données de conflit", "url": "https://acleddata.com/" }
+      ],
+      "moreUrl": "https://www.unocha.org/west-and-central-africa"
+    },
+    {
+      "id": "haiti",
+      "name": "Haïti",
+      "region": "Port-au-Prince & régions · Caraïbes",
+      "lat": 18.55,
+      "lon": -72.3,
+      "severity": "major",
+      "type": "Effondrement sécuritaire & insécurité alimentaire",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 5,5 M", "label": "personnes en insécurité alimentaire aiguë ; 700 000 déplacés internes (est. OCHA/PAM, 2024)" },
+      "context": [
+        "Haïti traverse depuis 2021 une spirale de violence sans précédent, alimentée par des gangs armés qui contrôlent désormais une grande partie de Port-au-Prince et de nombreuses routes nationales. Depuis l'assassinat du président Jovenel Moïse en juillet 2021, le vide institutionnel s'est aggravé.",
+        "Les gangs bloquent l'accès aux ports, pillent les convois humanitaires et terrorisent les quartiers populaires. Les violences incluent des massacres, des viols collectifs et des déplacements forcés massifs. Le système de santé et d'éducation est en quasi-effondrement.",
+        "Une mission multinationale de sécurité autorisée par l'ONU et dirigée par le Kenya a été déployée en 2024, mais ses moyens restent limités face à l'ampleur de la crise."
+      ],
+      "timeline": [
+        { "year": "2010", "label": "Séisme dévastateur (≈200 000 morts) ; reconstruction inachevée." },
+        { "year": "2021 (juillet)", "label": "Assassinat du président Moïse ; vide institutionnel aggravé." },
+        { "year": "2021 (août)", "label": "Second séisme meurtrier dans le Sud du pays." },
+        { "year": "2023–2024", "label": "Contrôle de 60 à 80 % de Port-au-Prince par des gangs armés." },
+        { "year": "2024", "label": "Déploiement de la mission multinationale de sécurité (Kenya + partenaires)." }
+      ],
+      "sources": [
+        { "name": "OCHA — Haïti", "url": "https://www.unocha.org/haiti" },
+        { "name": "PAM — Haïti", "url": "https://www.wfp.org/countries/haiti" },
+        { "name": "Human Rights Watch — Haïti", "url": "https://www.hrw.org/americas/haiti" },
+        { "name": "RNDDH (droits humains Haïti)", "url": "https://rnddh.org/" }
+      ],
+      "moreUrl": "https://www.unocha.org/haiti"
+    },
+    {
+      "id": "ethiopie-tigre",
+      "name": "Éthiopie — Tigré",
+      "region": "Nord de l'Éthiopie · Corne de l'Afrique",
+      "lat": 13.5,
+      "lon": 39.47,
+      "severity": "watch",
+      "type": "Sortie de conflit & crises régionales persistantes",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 15 M", "label": "personnes en besoin d'aide humanitaire en Éthiopie, toutes régions (est. OCHA, 2024)" },
+      "context": [
+        "La guerre du Tigré (2020-2022) a opposé le gouvernement fédéral éthiopien et ses alliés (forces érythréennes, milices Amhara) aux forces du TPLF. Le conflit a provoqué des dizaines de milliers de morts civils, des déplacements massifs et des blocages délibérés de l'aide alimentaire.",
+        "Un accord de cessez-le-feu a été signé à Pretoria en novembre 2022. Mais le Tigré reste en reconstruction précaire, avec un accès humanitaire encore difficile. Des tensions persistent dans les régions Amhara et Oromia, où d'autres conflits armés continuent de déplacer des populations.",
+        "L'Éthiopie concentre également un afflux massif de réfugiés en provenance du Soudan depuis 2023."
+      ],
+      "timeline": [
+        { "year": "2020 (novembre)", "label": "Début du conflit entre le gouvernement fédéral et le TPLF." },
+        { "year": "2021", "label": "Avancée des forces TPLF vers Addis-Abeba, puis reflux." },
+        { "year": "2022 (novembre)", "label": "Accord de paix de Pretoria — fin des combats au Tigré." },
+        { "year": "2023–2024", "label": "Reconstruction lente ; crises actives dans les régions Amhara et Oromia ; afflux de réfugiés soudanais." }
+      ],
+      "sources": [
+        { "name": "OCHA — Éthiopie", "url": "https://www.unocha.org/ethiopia" },
+        { "name": "HCR — Éthiopie", "url": "https://www.unhcr.org/countries/ethiopia" },
+        { "name": "Amnesty International — Tigré", "url": "https://www.amnesty.org/en/location/africa/east-africa-the-horn-and-great-lakes/ethiopia/" },
+        { "name": "Commission éthiopienne des droits de l'homme", "url": "https://ehrc.org/" }
+      ],
+      "moreUrl": "https://www.unocha.org/ethiopia"
+    },
+    {
+      "id": "syrie",
+      "name": "Syrie",
+      "region": "Proche-Orient",
+      "lat": 35.0,
+      "lon": 38.0,
+      "severity": "watch",
+      "type": "Transition post-Assad & crise humanitaire persistante",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 16,7 M", "label": "personnes dépendantes de l'aide + 5,5 M réfugiés à l'étranger (est. ONU, 2024)" },
+      "context": [
+        "La guerre civile syrienne, déclenchée en 2011, a fait entre 300 000 et 500 000 morts selon les estimations. Elle a impliqué une multiplicité d'acteurs — le régime Assad soutenu par la Russie et l'Iran, des groupes d'opposition, des formations kurdes, l'État islamique — et des interventions militaires extérieures.",
+        "En décembre 2024, des forces d'opposition (HTS en tête) ont renversé le régime de Bachar al-Assad en quelques jours. Cette chute ouvre une période de transition extrêmement incertaine. Le sort des millions de réfugiés syriens — sécurité de retour, reconstruction — reste une question majeure non résolue.",
+        "Des destructions massives d'infrastructures, notamment suite aux frappes russes, ont laissé des populations dans un dénuement profond. Environ 3,5 millions de réfugiés se trouvent en Turquie."
+      ],
+      "timeline": [
+        { "year": "2011", "label": "Répression des manifestations du Printemps arabe ; début de la guerre civile." },
+        { "year": "2013–2017", "label": "Montée en puissance puis défaite territoriale de l'État islamique (Daesh)." },
+        { "year": "2016", "label": "Chute d'Alep lors de l'offensive gouvernementale et russe." },
+        { "year": "2019", "label": "Offensive turque dans le nord-est ; défaite territoriale de l'EI." },
+        { "year": "2024 (décembre)", "label": "Chute du régime Assad ; prise de Damas par l'opposition armée." }
+      ],
+      "sources": [
+        { "name": "OCHA — Syrie", "url": "https://www.unocha.org/syrian-arab-republic" },
+        { "name": "HCR — Réfugiés syriens", "url": "https://www.unhcr.org/syrian-refugee-crisis.html" },
+        { "name": "Syrian Observatory for Human Rights", "url": "https://www.syriahr.com/en/" },
+        { "name": "Human Rights Watch — Syrie", "url": "https://www.hrw.org/middle-east/north-africa/syria" }
+      ],
+      "moreUrl": "https://www.unocha.org/syrian-arab-republic"
+    },
+    {
+      "id": "ukraine",
+      "name": "Ukraine",
+      "region": "Front est & sud · Europe de l'Est",
+      "lat": 48.5,
+      "lon": 37.0,
+      "severity": "major",
+      "type": "Guerre interétatique",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 10 M", "label": "personnes déplacées (6,5 M réfugiés en Europe + 3,5 M déplacés internes) (est. HCR/OIM, 2024)" },
+      "context": [
+        "L'invasion à grande échelle de l'Ukraine par la Russie, lancée le 24 février 2022, est la guerre la plus meurtrière en Europe depuis la Seconde Guerre mondiale. Elle a fait suite à une première phase de conflit dans le Donbass depuis 2014, après l'annexion de la Crimée.",
+        "L'invasion de 2022 a ciblé des infrastructures civiles (énergie, eau, santé), entraîné des destructions massives de villes et quartiers résidentiels, et provoqué le plus grand mouvement de réfugiés en Europe depuis 1945. Des enquêtes documentent des crimes de guerre commis par les forces russes (Boutcha, Marioupol, frappes sur des civils).",
+        "La guerre a aussi des répercussions mondiales sur la sécurité alimentaire, l'Ukraine et la Russie étant de grands exportateurs de céréales."
+      ],
+      "timeline": [
+        { "year": "2014", "label": "Annexion de la Crimée par la Russie ; début du conflit armé dans le Donbass." },
+        { "year": "2022 (24 fév.)", "label": "Invasion à grande échelle. Siège de Kyiv, Kharkiv, Marioupol." },
+        { "year": "2022 (mars–avril)", "label": "Découverte des atrocités de Boutcha après le retrait des forces russes." },
+        { "year": "2022 (sept.)", "label": "Contre-offensives ukrainiennes ; libération de Kherson." },
+        { "year": "2023–2024", "label": "Guerre de position ; frappes russes massives sur les infrastructures énergétiques." }
+      ],
+      "sources": [
+        { "name": "OCHA — Ukraine", "url": "https://www.unocha.org/ukraine" },
+        { "name": "HCR — Urgence Ukraine", "url": "https://www.unhcr.org/emergencies/ukraine-emergency" },
+        { "name": "Mission ONU droits de l'homme — Ukraine", "url": "https://www.ohchr.org/en/countries/ukraine" },
+        { "name": "Human Rights Watch — Ukraine", "url": "https://www.hrw.org/europe/central-asia/ukraine" }
+      ],
+      "moreUrl": "https://www.unocha.org/ukraine"
+    },
+    {
+      "id": "palestine-israel",
+      "name": "Palestine / Israël",
+      "region": "Gaza, Cisjordanie · Proche-Orient",
+      "lat": 31.5,
+      "lon": 34.47,
+      "severity": "major",
+      "type": "Conflit armé & crise humanitaire aiguë",
+      "status": "complete",
+      "editorialNote": "Cette fiche distingue strictement les politiques et acteurs armés des populations civiles et des religions. Sources croisées (ONU, ONG israéliennes et palestiniennes, médias établis).",
+      "keyFigure": { "value": "> 1,9 M", "label": "personnes déplacées dans la bande de Gaza (quasi-totalité de la population) (est. OCHA, 2025)" },
+      "context": [
+        "Le conflit israélo-palestinien dure depuis 1948 et le déplacement de centaines de milliers de Palestiniens (Nakba). La bande de Gaza est sous blocus israélien depuis 2007. Le 7 octobre 2023, le Hamas a mené une attaque sur le sud d'Israël, tuant environ 1 200 personnes (dont une majorité de civils) et prenant 250 otages.",
+        "L'offensive militaire israélienne qui a suivi dans la bande de Gaza a provoqué une catastrophe humanitaire : destructions massives d'infrastructures civiles, blocages de l'aide humanitaire, coupures d'eau, d'électricité et de carburant. Des organisations de droits humains documentent des violations du droit international humanitaire.",
+        "Il est essentiel de distinguer le gouvernement israélien de l'ensemble des citoyens israéliens, comme il est essentiel de distinguer le Hamas des 2,3 millions de civils de Gaza qui ne sont pas responsables de ses actions."
+      ],
+      "timeline": [
+        { "year": "1948", "label": "Création de l'État d'Israël ; déplacement de 700 000 Palestiniens (Nakba)." },
+        { "year": "1967", "label": "Guerre des Six Jours ; occupation israélienne de la Cisjordanie, Gaza et Jérusalem-Est." },
+        { "year": "2007", "label": "Prise de contrôle de Gaza par le Hamas ; blocus israélo-égyptien." },
+        { "year": "2023 (7 octobre)", "label": "Attaque du Hamas sur Israël (≈1 200 morts, 250 otages)." },
+        { "year": "2023–2025", "label": "Offensive militaire israélienne sur Gaza ; crise humanitaire massive documentée par l'ONU et les ONG." }
+      ],
+      "sources": [
+        { "name": "OCHA — Territoire palestinien occupé", "url": "https://www.ochaopt.org/" },
+        { "name": "B'Tselem (ONG israélienne droits humains)", "url": "https://www.btselem.org/" },
+        { "name": "Human Rights Watch — Israël/Palestine", "url": "https://www.hrw.org/middle-east/north-africa/israel/palestine" },
+        { "name": "Al Mezan Center for Human Rights (Gaza)", "url": "https://mezan.org/en/" }
+      ],
+      "moreUrl": "https://www.ochaopt.org/"
+    },
+    {
+      "id": "somalie",
+      "name": "Somalie",
+      "region": "Mogadiscio & régions centrales · Corne de l'Afrique",
+      "lat": 5.5,
+      "lon": 46.2,
+      "severity": "major",
+      "type": "Conflit armé chronique & insécurité alimentaire",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 3,8 M", "label": "déplacés internes ; 6,9 M en insécurité alimentaire aiguë (est. OCHA/PAM, 2024)" },
+      "context": [
+        "La Somalie n'a pas connu d'État central stable depuis l'effondrement du régime de Siad Barre en 1991. Le groupe armé Al-Shabaab (affilié à Al-Qaïda) contrôle de vastes zones rurales du centre et du sud, taxe les populations, mène des attentats dans les villes, et bloque régulièrement l'accès à l'aide humanitaire.",
+        "La Somalie est frappée par un cycle de sécheresses et d'inondations amplifiées par le changement climatique. La sécheresse de 2022-2023 a été qualifiée de la pire depuis 40 ans, menaçant la famine dans plusieurs régions. L'accès humanitaire est parmi les plus difficiles au monde.",
+        "La région semi-autonome du Somaliland (nord) maintient une stabilité relative mais n'est reconnue par aucun État."
+      ],
+      "timeline": [
+        { "year": "1991", "label": "Effondrement de l'État somalien ; début de la guerre civile." },
+        { "year": "2006", "label": "Émergence d'Al-Shabaab comme force militaire majeure." },
+        { "year": "2011", "label": "Famine déclarée dans le sud ; interventions militaires éthiopienne et kényane." },
+        { "year": "2022–2023", "label": "Sécheresse historique ; risque de famine récurrent." },
+        { "year": "2023–2024", "label": "Offensives militaires contre Al-Shabaab ; groupe reprend du terrain dans certaines zones." }
+      ],
+      "sources": [
+        { "name": "OCHA — Somalie", "url": "https://www.unocha.org/somalia" },
+        { "name": "HCR — Somalie", "url": "https://www.unhcr.org/countries/somalia" },
+        { "name": "Human Rights Watch — Somalie", "url": "https://www.hrw.org/africa/somalia" },
+        { "name": "PAM — Somalie", "url": "https://www.wfp.org/countries/somalia" }
+      ],
+      "moreUrl": "https://www.unocha.org/somalia"
+    },
+    {
+      "id": "nigeria-ne",
+      "name": "Nigeria — Nord-Est",
+      "region": "États de Borno, Adamawa, Yobe · Bassin du Lac Tchad",
+      "lat": 12.0,
+      "lon": 13.2,
+      "severity": "major",
+      "type": "Insurrection armée (Boko Haram / ISWAP)",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 2,1 M", "label": "déplacés internes dans l'État de Borno seul ; 7,7 M en insécurité alimentaire dans le nord-est (est. OCHA, 2024)" },
+      "context": [
+        "Boko Haram a émergé dans les années 2000 dans l'État de Borno (nord-est du Nigeria). L'insurrection a pris une ampleur régionale avec l'enlèvement de 276 lycéennes à Chibok en 2014 et la proclamation d'un « califat ». Le mouvement s'est fragmenté : une faction (ISWAP) a fait allégeance à l'État islamique et est aujourd'hui la plus active.",
+        "Les attaques visent aussi bien les forces de sécurité que les civils, les humanitaires et les enseignants. Des millions de personnes ont été déplacées dans la région du lac Tchad, qui concerne quatre pays (Nigeria, Niger, Tchad, Cameroun).",
+        "Le lac Tchad lui-même se rétrécit drastiquement sous l'effet du changement climatique — il a perdu 90 % de sa superficie depuis les années 1960 — aggravant les tensions sur les ressources naturelles."
+      ],
+      "timeline": [
+        { "year": "2009", "label": "Soulèvement de Boko Haram à Maiduguri ; répression militaire." },
+        { "year": "2014", "label": "Enlèvement des 276 lycéennes de Chibok ; pic de contrôle territorial." },
+        { "year": "2015", "label": "Contre-offensive militaire régionale ; perte du territoire contrôlé." },
+        { "year": "2016", "label": "Scission entre Boko Haram et ISWAP." },
+        { "year": "2021", "label": "Mort du fondateur de Boko Haram, Shekau. ISWAP renforce son emprise." }
+      ],
+      "sources": [
+        { "name": "OCHA — Nigeria", "url": "https://www.unocha.org/nigeria" },
+        { "name": "Human Rights Watch — Nigeria", "url": "https://www.hrw.org/africa/nigeria" },
+        { "name": "Amnesty International — Nigeria", "url": "https://www.amnesty.org/en/location/africa/west-and-central-africa/nigeria/" },
+        { "name": "Commission du Bassin du Lac Tchad", "url": "https://www.cblt.org/" }
+      ],
+      "moreUrl": "https://www.unocha.org/nigeria"
+    },
+    {
+      "id": "rca",
+      "name": "Centrafrique (RCA)",
+      "region": "Bangui & régions · Afrique centrale",
+      "lat": 5.5,
+      "lon": 18.5,
+      "severity": "major",
+      "type": "Conflit armé & transition instable",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 750 K + 730 K", "label": "déplacés internes + réfugiés centrafricains dans les pays voisins (est. OCHA/HCR, 2024)" },
+      "context": [
+        "La République centrafricaine est l'un des pays les plus pauvres au monde et connaît des conflits armés récurrents depuis son indépendance. La dernière crise majeure a éclaté en 2012-2013 avec la prise de pouvoir par une coalition rebelle (Séléka), suivie de violences entre groupes opposés. Ces catégorisations masquent des enjeux politiques et économiques complexes.",
+        "Le groupe Wagner (désormais Africa Corps) est présent depuis 2018 aux côtés du gouvernement. Des rapports de l'ONU documentent des exactions graves commises par des mercenaires Wagner et par des groupes armés. Environ deux tiers du territoire national échappent au contrôle de l'État.",
+        "Les ressources naturelles (diamants, or, bois) alimentent le financement des groupes armés dans un pays dont la population reste parmi les plus pauvres au monde."
+      ],
+      "timeline": [
+        { "year": "2012–2013", "label": "Prise de pouvoir par la Séléka ; violences intercommunautaires." },
+        { "year": "2014", "label": "Intervention française (op. Sangaris) et déploiement de la MINUSCA (ONU)." },
+        { "year": "2018", "label": "Accord de paix de Khartoum ; arrivée des mercenaires Wagner." },
+        { "year": "2021", "label": "Offensive de la coalition CPC repoussée avec l'aide de Wagner et des troupes rwandaises." },
+        { "year": "2023–2024", "label": "Situation sécuritaire précaire dans les deux tiers du territoire." }
+      ],
+      "sources": [
+        { "name": "OCHA — Centrafrique", "url": "https://www.unocha.org/central-african-republic" },
+        { "name": "Human Rights Watch — RCA", "url": "https://www.hrw.org/africa/central-african-republic" },
+        { "name": "Amnesty International — RCA", "url": "https://www.amnesty.org/en/location/africa/west-and-central-africa/central-african-republic/" },
+        { "name": "Rapport experts ONU — sanctions RCA", "url": "https://www.un.org/securitycouncil/sanctions/2127/panel-of-experts/work-and-mandate" }
+      ],
+      "moreUrl": "https://www.unocha.org/central-african-republic"
+    },
+    {
+      "id": "mozambique",
+      "name": "Mozambique — Cabo Delgado",
+      "region": "Province de Cabo Delgado · Afrique australe",
+      "lat": -13.0,
+      "lon": 40.7,
+      "severity": "major",
+      "type": "Insurrection islamiste",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 850 K", "label": "personnes déplacées dans la province de Cabo Delgado (est. OCHA, 2024)" },
+      "context": [
+        "Depuis 2017, une insurrection armée islamiste ravage la province de Cabo Delgado, la plus septentrionale du Mozambique. L'attaque de la ville de Mocímboa da Praia en août 2020 a marqué un tournant : des milliers de personnes ont fui en quelques heures. Les attaques visent des villages, des forces de sécurité et des travailleurs humanitaires.",
+        "Le contexte est aggravé par un paradoxe économique : Cabo Delgado abrite de gigantesques réserves de gaz naturel (exploitées notamment par TotalEnergies), mais reste la province la plus pauvre du pays. Les inégalités locales sont citées parmi les facteurs d'enracinement de l'insurrection.",
+        "L'intervention militaire du Rwanda (depuis 2021) et de la SADC (forces régionales africaines) a permis de reprendre du terrain, mais l'insurrection reste active dans les zones rurales."
+      ],
+      "timeline": [
+        { "year": "2017", "label": "Premières attaques armées dans Cabo Delgado." },
+        { "year": "2020 (août)", "label": "Prise et saccage de Mocímboa da Praia." },
+        { "year": "2021 (mars)", "label": "Attaque d'Afungi (site gazier de TotalEnergies) ; suspension du projet." },
+        { "year": "2021 (juillet)", "label": "Déploiement des forces militaires rwandaises." },
+        { "year": "2022–2024", "label": "Stabilisation partielle des zones côtières ; insurrection persistante dans l'intérieur." }
+      ],
+      "sources": [
+        { "name": "OCHA — Mozambique", "url": "https://www.unocha.org/mozambique" },
+        { "name": "Human Rights Watch — Mozambique", "url": "https://www.hrw.org/africa/mozambique" },
+        { "name": "Amnesty International — Cabo Delgado", "url": "https://www.amnesty.org/en/location/africa/southern-africa/mozambique/" },
+        { "name": "HCR — Mozambique", "url": "https://www.unhcr.org/countries/mozambique" }
+      ],
+      "moreUrl": "https://www.unocha.org/mozambique"
+    },
+    {
+      "id": "cameroun",
+      "name": "Cameroun — Crise anglophone",
+      "region": "Régions Nord-Ouest & Sud-Ouest · Afrique centrale",
+      "lat": 5.8,
+      "lon": 9.7,
+      "severity": "major",
+      "type": "Conflit armé interne (crise sécession)",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 700 K–1 M", "label": "déplacés internes dans les régions anglophones (est. OCHA, 2024)" },
+      "context": [
+        "La « crise anglophone » au Cameroun trouve ses racines dans les inégalités historiques entre régions francophones et anglophones, héritages de la partition coloniale. Des manifestations en 2016-2017 ont été réprimées violemment, conduisant à la radicalisation d'une partie du mouvement qui revendique l'indépendance d'un État fictif appelé « Ambazonie ».",
+        "Les deux parties au conflit — groupes séparatistes armés et forces de sécurité camerounaises — sont accusées de violences contre les civils : incendies de villages, enlèvements, assassinats. Des milliers d'enfants sont privés d'école depuis plusieurs années.",
+        "Cette crise, quasiment absente de la couverture médiatique internationale, est l'une des plus graves d'Afrique centrale par ses effets sur les populations."
+      ],
+      "timeline": [
+        { "year": "2016", "label": "Grèves des avocats et enseignants anglophones ; répression du gouvernement." },
+        { "year": "2017", "label": "Proclamation symbolique de l'indépendance de l'Ambazonie ; début des affrontements armés." },
+        { "year": "2018–2019", "label": "Escalade des violences ; déplacements massifs vers le Nigeria et les régions francophones." },
+        { "year": "2023–2024", "label": "Conflit en stagnation — ni victoire militaire, ni processus de paix sérieux." }
+      ],
+      "sources": [
+        { "name": "OCHA — Cameroun", "url": "https://www.unocha.org/cameroon" },
+        { "name": "Human Rights Watch — Cameroun", "url": "https://www.hrw.org/africa/cameroon" },
+        { "name": "Amnesty International — Cameroun", "url": "https://www.amnesty.org/en/location/africa/west-and-central-africa/cameroon/" },
+        { "name": "Crisis Group — Crise anglophone", "url": "https://www.crisisgroup.org/africa/central-africa/cameroon" }
+      ],
+      "moreUrl": "https://www.unocha.org/cameroon"
+    },
+    {
+      "id": "soudan-sud",
+      "name": "Soudan du Sud",
+      "region": "Juba & États frontaliers · Afrique de l'Est",
+      "lat": 7.5,
+      "lon": 30.5,
+      "severity": "major",
+      "type": "Conflit armé & crise humanitaire chronique",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 9,4 M", "label": "personnes en besoin d'aide ; 1,8 M déplacés internes + 2,3 M réfugiés (est. OCHA/HCR, 2024)" },
+      "context": [
+        "Le Soudan du Sud, devenu indépendant en 2011 (le pays le plus jeune du monde), a sombré dans une guerre civile dès 2013, opposant les forces du président Salva Kiir à celles de l'ex-vice-président Riek Machar. Le conflit implique des enjeux de pouvoir, de ressources pétrolières et de loyautés politiques complexes.",
+        "Des atrocités massives ont été commises par les deux camps : massacres ciblés, viols systématiques, destruction de l'agriculture. La crise est aggravée par des inondations récurrentes qui détruisent les maigres récoltes, et par l'afflux de réfugiés depuis le Soudan voisin.",
+        "Le Soudan du Sud est régulièrement classé parmi les États les plus fragiles au monde."
+      ],
+      "timeline": [
+        { "year": "2011", "label": "Indépendance du Soudan du Sud après le référendum historique." },
+        { "year": "2013 (décembre)", "label": "Début de la guerre civile à Juba." },
+        { "year": "2015", "label": "Accord de paix d'Addis-Abeba — application très partielle." },
+        { "year": "2018", "label": "Accord de paix revitalisé (R-ARCSS) ; gouvernement d'unité formé en 2020." },
+        { "year": "2023–2024", "label": "Violences persistantes dans plusieurs États ; afflux de réfugiés depuis le Soudan." }
+      ],
+      "sources": [
+        { "name": "OCHA — Soudan du Sud", "url": "https://www.unocha.org/south-sudan" },
+        { "name": "HCR — Soudan du Sud", "url": "https://www.unhcr.org/countries/south-sudan" },
+        { "name": "Human Rights Watch — Soudan du Sud", "url": "https://www.hrw.org/africa/south-sudan" },
+        { "name": "Commission ONU droits de l'homme — Soudan du Sud", "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-hss/index" }
+      ],
+      "moreUrl": "https://www.unocha.org/south-sudan"
+    },
+    {
+      "id": "libye",
+      "name": "Libye",
+      "region": "Tripoli, Benghazi & zones de transit · Afrique du Nord",
+      "lat": 26.3,
+      "lon": 17.2,
+      "severity": "watch",
+      "type": "Conflit politique & crise migratoire",
+      "status": "complete",
+      "keyFigure": { "value": "> 750 K", "label": "migrants et réfugiés en transit vers l'Europe (est. OIM, 2024) ; 125 000 déplacés internes" },
+      "context": [
+        "Depuis la chute de Mouammar Kadhafi en 2011, la Libye est fragmentée entre factions rivales. Le pays est divisé entre un gouvernement reconnu internationalement à Tripoli (GNU) et des autorités concurrentes à l'est soutenues par le maréchal Haftar. La Turquie soutient le premier, la Russie (via Wagner) et les Émirats soutiennent le second.",
+        "La Libye est devenue le principal point de passage des migrations vers l'Europe via la Méditerranée. Des ONG et des rapports de l'ONU documentent des conditions assimilables à de la torture dans les centres de détention pour migrants : travaux forcés, violence, extorsion.",
+        "Ces abus sont perpétrés aussi bien par des groupes armés que par des structures officielles, souvent financées indirectement par des États européens dans le cadre des politiques de rétention migratoire."
+      ],
+      "timeline": [
+        { "year": "2011", "label": "Chute de Kadhafi avec l'intervention de l'OTAN ; fragmentation du pays." },
+        { "year": "2014", "label": "Guerre entre deux gouvernements rivaux." },
+        { "year": "2019–2020", "label": "Offensive du maréchal Haftar sur Tripoli, repoussée avec l'aide turque." },
+        { "year": "2021", "label": "Gouvernement d'unité nationale — fragile." },
+        { "year": "2023", "label": "Inondations de Derna (milliers de morts) ; situation politique toujours bloquée." }
+      ],
+      "sources": [
+        { "name": "OCHA — Libye", "url": "https://www.unocha.org/libya" },
+        { "name": "OIM — Libye / Migrations", "url": "https://www.iom.int/countries/libya" },
+        { "name": "Human Rights Watch — Libye", "url": "https://www.hrw.org/middle-east/north-africa/libya" },
+        { "name": "HCR — Libye", "url": "https://www.unhcr.org/countries/libya" }
+      ],
+      "moreUrl": "https://www.unocha.org/libya"
+    },
+    {
+      "id": "irak",
+      "name": "Irak — Séquelles de l'EI",
+      "region": "Mossoul, Anbar, régions yézidies · Proche-Orient",
+      "lat": 33.0,
+      "lon": 44.0,
+      "severity": "watch",
+      "type": "Post-conflit & déplacements résiduels",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 1,2 M", "label": "déplacés internes encore dans l'incapacité de rentrer, 7 ans après la défaite de l'EI (est. OCHA, 2024)" },
+      "context": [
+        "L'Irak a vécu une succession de crises depuis l'invasion américaine de 2003. L'émergence puis l'expansion de l'État islamique (2013-2017) a laissé des villes entières en ruines (Mossoul, Ramadi, Falloujah), des millions de personnes déplacées, et des traumatismes profonds dans la population.",
+        "Malgré la défaite territoriale de l'EI en 2017, environ 1,2 million d'Irakiens ne peuvent toujours pas rentrer chez eux : maisons détruites, mines et engins explosifs laissés par l'EI, ou persécution de communautés supposément liées à l'EI. Les minorités (Yézidis, chrétiens) sont particulièrement touchées.",
+        "Les Yézidis, victimes d'un génocide reconnu par l'ONU en 2014 (massacres, esclavage sexuel, destruction de leurs sites sacrés), attendent toujours justice et conditions sécurisées de retour dans leurs villages du Sinjar."
+      ],
+      "timeline": [
+        { "year": "2003", "label": "Invasion américaine ; chute de Saddam Hussein ; début de l'instabilité chronique." },
+        { "year": "2013–2014", "label": "Émergence de l'EI ; prise de Mossoul et proclamation du « califat »." },
+        { "year": "2014", "label": "Génocide yézidi dans le Sinjar — reconnu par l'ONU." },
+        { "year": "2017", "label": "Libération de Mossoul ; défaite territoriale de l'EI." },
+        { "year": "2021–2024", "label": "Reconstruction partielle ; retour impossible pour des centaines de milliers de personnes." }
+      ],
+      "sources": [
+        { "name": "OCHA — Irak", "url": "https://www.unocha.org/iraq" },
+        { "name": "HCR — Irak", "url": "https://www.unhcr.org/countries/iraq" },
+        { "name": "Human Rights Watch — Irak", "url": "https://www.hrw.org/middle-east/north-africa/iraq" },
+        { "name": "UNITAD — Crimes EI en Irak (ONU)", "url": "https://www.unitad.un.org/" }
+      ],
+      "moreUrl": "https://www.unocha.org/iraq"
+    },
+    {
+      "id": "afghanistan",
+      "name": "Afghanistan",
+      "region": "Kaboul & régions · Asie centrale",
+      "lat": 33.9,
+      "lon": 67.7,
+      "severity": "major",
+      "type": "Crise humanitaire sous régime Taliban",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 23,7 M", "label": "personnes en besoin d'aide humanitaire — plus de la moitié de la population (est. OCHA, 2024)" },
+      "context": [
+        "Depuis le retour au pouvoir des Taliban en août 2021, après le retrait des forces américaines et de l'OTAN, l'Afghanistan connaît une crise humanitaire d'une ampleur exceptionnelle. Le gel des avoirs afghans à l'étranger et la suspension de l'aide internationale ont précipité l'effondrement de l'économie.",
+        "Les femmes et les filles sont particulièrement touchées par les politiques des Taliban : interdiction d'aller à l'école secondaire et à l'université, interdiction de travailler dans la plupart des secteurs, restrictions de déplacement. Ces politiques constituent une discrimination systématique. Il est essentiel de distinguer le régime Taliban des 40 millions d'Afghans qui en subissent les conséquences.",
+        "L'Afghanistan abrite aussi l'une des plus grandes populations réfugiées (≈5 millions, principalement au Pakistan et en Iran). Le Pakistan a expulsé massivement des Afghans depuis 2023."
+      ],
+      "timeline": [
+        { "year": "2001", "label": "Intervention américaine après le 11 septembre ; chute du premier régime Taliban." },
+        { "year": "2001–2021", "label": "Vingt ans de guerre, de corruption et de fragilité institutionnelle." },
+        { "year": "2021 (août)", "label": "Retrait de l'OTAN ; prise de Kaboul par les Taliban en quelques jours." },
+        { "year": "2022", "label": "Gel des avoirs, effondrement économique, crise humanitaire déclarée." },
+        { "year": "2023–2024", "label": "Interdiction totale de l'éducation des filles ; expulsions massives d'Afghans du Pakistan." }
+      ],
+      "sources": [
+        { "name": "OCHA — Afghanistan", "url": "https://www.unocha.org/afghanistan" },
+        { "name": "HCR — Afghanistan", "url": "https://www.unhcr.org/countries/afghanistan" },
+        { "name": "Human Rights Watch — Afghanistan", "url": "https://www.hrw.org/asia/afghanistan" },
+        { "name": "Amnesty International — Afghanistan", "url": "https://www.amnesty.org/en/location/asia-and-the-pacific/south-asia/afghanistan/" }
+      ],
+      "moreUrl": "https://www.unocha.org/afghanistan"
+    },
+    {
+      "id": "manipur",
+      "name": "Inde — Manipur",
+      "region": "État du Manipur · Nord-Est de l'Inde",
+      "lat": 24.65,
+      "lon": 93.9,
+      "severity": "watch",
+      "type": "Violences ethniques",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 60 000", "label": "personnes déplacées lors des violences ethniques de 2023 (est. gouvernement indien / ONG locales)" },
+      "context": [
+        "Depuis mai 2023, l'État du Manipur est le théâtre de violences ethniques entre la communauté Meitei (majoritairement hindoue, vivant dans la vallée) et les communautés Kuki-Zo (en majorité chrétiennes, vivant dans les collines). La crise a été déclenchée par une décision de justice sur le statut de « tribu répertoriée ».",
+        "Les violences ont fait des centaines de morts, des milliers de maisons brûlées, et le déplacement de dizaines de milliers de personnes. Des rapports d'ONG documentent des meurtres, des viols et des destructions délibérées de lieux de culte. La réponse des autorités a été critiquée comme insuffisante.",
+        "Cette crise a reçu très peu d'attention internationale malgré son ampleur et la coupure d'internet imposée pendant des mois qui a entravé la couverture médiatique."
+      ],
+      "timeline": [
+        { "year": "2023 (mai)", "label": "Explosion de violences à la suite d'une marche tribale Kuki." },
+        { "year": "2023 (juillet)", "label": "Diffusion d'une vidéo montrant des violences sexuelles sur des femmes Kuki ; tollé national." },
+        { "year": "2023–2024", "label": "Internet coupé pendant des mois ; accès des journalistes limité ; situation toujours non résolue." }
+      ],
+      "sources": [
+        { "name": "Human Rights Watch — Inde", "url": "https://www.hrw.org/asia/india" },
+        { "name": "Amnesty International — Inde", "url": "https://www.amnesty.org/en/location/asia-and-the-pacific/south-asia/india/" },
+        { "name": "Article 14 (média d'investigation indien)", "url": "https://article-14.com/" },
+        { "name": "OCHA — Asie du Sud", "url": "https://www.unocha.org/south-asia" }
+      ],
+      "moreUrl": "https://www.hrw.org/asia/india"
+    },
+    {
+      "id": "venezuela",
+      "name": "Venezuela",
+      "region": "Caracas & régions · Amérique du Sud",
+      "lat": 8.0,
+      "lon": -66.0,
+      "severity": "major",
+      "type": "Crise migratoire & effondrement économique",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 7,7 M", "label": "Vénézuéliens réfugiés ou migrants dans le monde — plus grande crise migratoire de l'hémisphère occidental (est. HCR/R4V, 2024)" },
+      "context": [
+        "Le Venezuela a connu un effondrement économique et institutionnel spectaculaire depuis 2013. L'hyperinflation (jusqu'à 1 000 000 % en 2018), les pénuries alimentaires et médicales, la répression politique, et la violence ont poussé des millions de Vénézuéliens à fuir, principalement vers la Colombie, le Pérou, l'Équateur, le Chili et le Brésil.",
+        "Des opposants politiques sont détenus et torturés selon les organisations de droits humains. Les élections de 2024 ont été entachées de fraudes selon l'opposition et des observateurs internationaux, provoquant une nouvelle vague de départs.",
+        "Contrairement à d'autres crises de déplacement, celle du Venezuela se déroule principalement dans des pays d'accueil aux capacités limitées, sans infrastructure de camps de réfugiés, rendant les populations particulièrement vulnérables."
+      ],
+      "timeline": [
+        { "year": "2013", "label": "Mort de Hugo Chávez ; début de la présidence de Nicolás Maduro." },
+        { "year": "2016–2019", "label": "Hyperinflation, pénuries, répression ; début de l'exode massif." },
+        { "year": "2019", "label": "Tentative de transition à Juan Guaidó ; impasse politique internationale." },
+        { "year": "2021–2023", "label": "Légère stabilisation économique (dollarisation informelle) ; exode continue." },
+        { "year": "2024", "label": "Élection présidentielle contestée ; nouvelle vague migratoire." }
+      ],
+      "sources": [
+        { "name": "HCR / Plateforme R4V — Vénézuéliens", "url": "https://r4v.info/" },
+        { "name": "Human Rights Watch — Venezuela", "url": "https://www.hrw.org/americas/venezuela" },
+        { "name": "Amnesty International — Venezuela", "url": "https://www.amnesty.org/en/location/americas/south-america/venezuela/" },
+        { "name": "OIM — Venezuela", "url": "https://www.iom.int/countries/venezuela" }
+      ],
+      "moreUrl": "https://r4v.info/"
+    },
+    {
+      "id": "colombie",
+      "name": "Colombie",
+      "region": "Zones rurales & régions frontalières · Amérique du Sud",
+      "lat": 4.5,
+      "lon": -73.0,
+      "severity": "major",
+      "type": "Conflit armé interne (groupes armés multiples)",
+      "status": "complete",
+      "keyFigure": { "value": "≈ 4,9 M", "label": "déplacés internes — l'un des chiffres les plus élevés au monde (est. IDMC, 2024)" },
+      "context": [
+        "La Colombie connaît un conflit armé interne depuis plus de soixante ans, impliquant des guérillas (FARC, ELN), des groupes paramilitaires et l'État. L'accord de paix de 2016 entre le gouvernement et les FARC a constitué une avancée historique (Prix Nobel de la Paix au président Santos), mais sa mise en œuvre reste incomplète.",
+        "Une dissidence des FARC (FARC-EP/EMC) a refusé la démobilisation et poursuit ses activités armées. L'ELN reste actif dans les régions frontalières avec le Venezuela. Des groupes paramilitaires (Clan del Golfo/AGC) exercent un contrôle territorial sur des zones productrices de coca.",
+        "Les populations les plus touchées sont les communautés afro-colombiennes et indigènes des zones rurales, souvent déplacées par les combats. La Colombie accueille également plus d'un million de Vénézuéliens."
+      ],
+      "timeline": [
+        { "year": "1964", "label": "Fondation des FARC et de l'ELN." },
+        { "year": "2002–2010", "label": "Offensive militaire du gouvernement Uribe ; affaiblissement des FARC." },
+        { "year": "2016", "label": "Accord de paix gouvernement-FARC ; Prix Nobel de la Paix." },
+        { "year": "2017", "label": "Démobilisation partielle des FARC ; dissidences armées se reforment." },
+        { "year": "2022–2024", "label": "« Paix totale » du président Petro — négociations avec ELN et dissidences FARC." }
+      ],
+      "sources": [
+        { "name": "OCHA — Colombie", "url": "https://www.unocha.org/colombia" },
+        { "name": "IDMC — Déplacements en Colombie", "url": "https://www.internal-displacement.org/countries/colombia" },
+        { "name": "Human Rights Watch — Colombie", "url": "https://www.hrw.org/americas/colombia" },
+        { "name": "CODHES (ONG colombienne de droits humains)", "url": "https://codhes.org/" }
+      ],
+      "moreUrl": "https://www.unocha.org/colombia"
+    }
+  ]
+}

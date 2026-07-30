@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(git --version)",
+      "Bash(mkdir -p src/data src/styles public)",
+      "Bash(curl -sL -o public/earth-land.jpg \"https://cdn.jsdelivr.net/gh/mrdoob/three.js@r160/examples/textures/planets/earth_atmos_2048.jpg\" -w \"http_%{http_code} size_%{size_download}\\\\n\")",
+      "Bash(curl -sL -o public/earth-spec.jpg \"https://cdn.jsdelivr.net/gh/mrdoob/three.js@r160/examples/textures/planets/earth_specular_2048.jpg\" -w \"spec http_%{http_code} size_%{size_download}\\\\n\")",
+      "Bash(curl -sL -o public/earth-land.png \"https://cdn.jsdelivr.net/gh/turban/webgl-earth@master/images/2_no_clouds_4k.jpg\" -w \"land http_%{http_code} size_%{size_download}\\\\n\")",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Read(//tmp/**)",
+      "Bash(curl -s -o /dev/null -w \"index.html      %{http_code}\\\\n\" http://localhost:5188/)",
+      "Bash(curl -s -o /dev/null -w \"main.js          %{http_code}\\\\n\" http://localhost:5188/src/main.js)",
+      "Bash(curl -s -o /dev/null -w \"earth-spec.jpg   %{http_code}\\\\n\" http://localhost:5188/earth-spec.jpg)",
+      "Read(//Applications/Google Chrome.app/Contents/MacOS/**)",
+      "Read(//Applications/**)",
+      "Read(//Users/amarelarji/Library/Caches/ms-playwright/**)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(mkdir -p /tmp/pw)",
+      "Bash(npm init *)",
+      "Bash(npm i *)",
+      "Bash(node smoke.mjs)",
+      "Bash(node flow.mjs)",
+      "Bash(pkill -f \"vite --port 5188\")",
+      "Bash(curl -s -o /dev/null -w \"index %{http_code}\\\\n\" http://localhost:5188/)",
+      "Read(//var/folders/zz/2kcgf1lx12s1fmctbtwk_y8r0000gn/T/TemporaryItems/NSIRD_screencaptureui_mzyK2o//**)",
+      "Read(//Users/amarelarji/Desktop/**)",
+      "Bash(python3 *)",
+      "Bash(git -C /Users/amarelarji/Desktop/terre status)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)"
+    ]
+  }
+}
