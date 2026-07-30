@@ -279,18 +279,19 @@
       "type": "Conflit armé & crise humanitaire aiguë",
       "status": "complete",
       "editorialNote": "Cette fiche distingue strictement les politiques et acteurs armés des populations civiles et des religions. Sources croisées (ONU, ONG israéliennes et palestiniennes, médias établis).",
-      "keyFigure": { "value": "> 1,9 M", "label": "personnes déplacées dans la bande de Gaza (quasi-totalité de la population) (est. OCHA, 2025)" },
+      "keyFigure": { "value": "> 1,9 M", "label": "personnes déplacées dans la bande de Gaza (quasi-totalité de la population) ; des dizaines de milliers de morts à Gaza selon les autorités sanitaires locales (chiffres évolutifs)" },
       "context": [
-        "Le conflit israélo-palestinien dure depuis 1948 et le déplacement de centaines de milliers de Palestiniens (Nakba). La bande de Gaza est sous blocus israélien depuis 2007. Le 7 octobre 2023, le Hamas a mené une attaque sur le sud d'Israël, tuant environ 1 200 personnes (dont une majorité de civils) et prenant 250 otages.",
-        "L'offensive militaire israélienne qui a suivi dans la bande de Gaza a provoqué une catastrophe humanitaire : destructions massives d'infrastructures civiles, blocages de l'aide humanitaire, coupures d'eau, d'électricité et de carburant. Des organisations de droits humains documentent des violations du droit international humanitaire.",
-        "Il est essentiel de distinguer le gouvernement israélien de l'ensemble des citoyens israéliens, comme il est essentiel de distinguer le Hamas des 2,3 millions de civils de Gaza qui ne sont pas responsables de ses actions."
+        "FREE PALESTINE ! Le conflit israélo-palestinien dure depuis la création de l'État d'Israël en 1948 et le déplacement de centaines de milliers de Palestiniens (Nakba). La bande de Gaza est soumise à un blocus israélien depuis 2007, après la prise de contrôle du territoire par le Hamas.",
+        "Depuis octobre 2023, l'offensive militaire israélienne dans la bande de Gaza a entraîné une crise humanitaire majeure. Les bombardements et les opérations terrestres ont causé d'importantes destructions d'infrastructures civiles, des déplacements massifs de population, ainsi que de très nombreuses victimes civiles, dont des enfants et des familles. Israël affirme que ses opérations visent le Hamas, tandis que de nombreuses organisations humanitaires et de défense des droits humains dénoncent l'ampleur des pertes civiles, les restrictions à l'acheminement de l'aide humanitaire et de possibles violations du droit international humanitaire.",
+        "Des organisations telles que Human Rights Watch, Amnesty International, B'Tselem et Al Mezan ont documenté des violations du droit international humanitaire par les différentes parties au conflit. En Cisjordanie occupée, les violences impliquant des colons israéliens et les opérations militaires continuent également d'entraîner des morts, des blessés et des déplacements de population.",
+        "Il est essentiel de distinguer le gouvernement israélien et ses décisions militaires de l'ensemble des citoyens israéliens, tout comme il est essentiel de distinguer le Hamas, organisation armée, des millions de civils palestiniens de Gaza qui ne sont pas responsables de ses actions."
       ],
       "timeline": [
         { "year": "1948", "label": "Création de l'État d'Israël ; déplacement de 700 000 Palestiniens (Nakba)." },
         { "year": "1967", "label": "Guerre des Six Jours ; occupation israélienne de la Cisjordanie, Gaza et Jérusalem-Est." },
         { "year": "2007", "label": "Prise de contrôle de Gaza par le Hamas ; blocus israélo-égyptien." },
-        { "year": "2023 (7 octobre)", "label": "Attaque du Hamas sur Israël (≈1 200 morts, 250 otages)." },
-        { "year": "2023–2025", "label": "Offensive militaire israélienne sur Gaza ; crise humanitaire massive documentée par l'ONU et les ONG." }
+        { "year": "2023 (7 octobre)", "label": "Attaque du Hamas sur Israël." },
+        { "year": "2023–2025", "label": "Offensive militaire israélienne sur Gaza ; crise humanitaire massive documentée." }
       ],
       "sources": [
         { "name": "OCHA — Territoire palestinien occupé", "url": "https://www.ochaopt.org/" },
