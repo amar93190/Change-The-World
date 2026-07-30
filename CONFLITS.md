@@ -318,21 +318,24 @@ Des enquêtes documentent des crimes de guerre commis par les forces russes (Bou
 > **Note éditoriale** : Cette fiche distingue strictement les politiques et acteurs armés des populations civiles et des religions. Sources croisées (ONU, ONG israéliennes et palestiniennes, médias établis). Les chiffres de victimes sont ceux des organisations de santé et d'enquête indépendantes ; ils comportent des incertitudes et peuvent être révisés.
 
 ### Chiffre clé
-**> 1,9 million** de personnes déplacées dans la bande de Gaza (quasi-totalité de la population) ; **> 46 000** morts à Gaza selon les autorités sanitaires locales (est. début 2025, chiffres à vérifier car évolutifs).
+**> 1,9 million** de personnes déplacées dans la bande de Gaza (quasi-totalité de la population) ; des dizaines de milliers de morts à Gaza selon les autorités sanitaires locales (chiffres évolutifs et régulièrement révisés).
 
 ### Contexte
-Le conflit israélo-palestinien dure depuis la création de l'État d'Israël en 1948 et le déplacement de centaines de milliers de Palestiniens (Nakba). La bande de Gaza est sous blocus israélien depuis 2007, après la prise de contrôle par le Hamas. Le 7 octobre 2023, le Hamas a mené une attaque sur le sud d'Israël, tuant environ 1 200 personnes (dont une majorité de civils) et prenant 250 otages.
+FREE PALESTINE !
+Le conflit israélo-palestinien dure depuis la création de l'État d'Israël en 1948 et le déplacement de centaines de milliers de Palestiniens (Nakba). La bande de Gaza est soumise à un blocus israélien depuis 2007, après la prise de contrôle du territoire par le Hamas.
 
-L'offensive militaire israélienne qui a suivi dans la bande de Gaza a provoqué une catastrophe humanitaire : destructions massives d'infrastructures civiles, blocages de l'aide humanitaire, coupures d'eau, d'électricité et de carburant. Des organisations de droits humains (HRW, Amnesty, B'Tselem, Al Mezan) documentent des violations du droit international humanitaire par les deux parties au conflit. En Cisjordanie occupée, des violences de colons et des opérations militaires provoquent des déplacements supplémentaires.
+Depuis octobre 2023, l'offensive militaire israélienne dans la bande de Gaza a entraîné une crise humanitaire majeure. Les bombardements et les opérations terrestres ont causé d'importantes destructions d'infrastructures civiles, des déplacements massifs de population, ainsi que de très nombreuses victimes civiles, dont des enfants et des familles. Israël affirme que ses opérations visent le Hamas, tandis que de nombreuses organisations humanitaires et de défense des droits humains dénoncent l'ampleur des pertes civiles, les restrictions à l'acheminement de l'aide humanitaire et de possibles violations du droit international humanitaire.
 
-Il est essentiel de distinguer le gouvernement israélien et ses politiques des citoyens israéliens dans leur ensemble, comme il est essentiel de distinguer le Hamas (organisation armée) des 2,3 millions de civils de Gaza qui ne sont pas responsables de ses actions.
+Des organisations telles que Human Rights Watch, Amnesty International, B'Tselem et Al Mezan ont documenté des violations du droit international humanitaire par les différentes parties au conflit. En Cisjordanie occupée, les violences impliquant des colons israéliens et les opérations militaires continuent également d'entraîner des morts, des blessés et des déplacements de population.
+
+Il est essentiel de distinguer le gouvernement israélien et ses décisions militaires de l'ensemble des citoyens israéliens, tout comme il est essentiel de distinguer le Hamas, organisation armée, des millions de civils palestiniens de Gaza qui ne sont pas responsables de ses actions.
 
 ### Frise chronologique
 - **1948** : Création de l'État d'Israël ; déplacement de 700 000 Palestiniens (Nakba).
 - **1967** : Guerre des Six Jours ; occupation israélienne de la Cisjordanie, Gaza et Jérusalem-Est.
 - **2007** : Prise de contrôle de Gaza par le Hamas ; blocus israélo-égyptien.
-- **2023 (7 octobre)** : Attaque du Hamas sur Israël (1 200 morts, 250 otages).
-- **2023-2025** : Offensive militaire israélienne sur Gaza ; crise humanitaire massive documentée.
+- **2023 (7 octobre)** : Attaque du Hamas sur Israël.
+- **2023-2025** : Offensive militaire israélienne sur tous Gaza; crise humanitaire massive documentée.
 
 ### Sources
 - OCHA — Territoire palestinien occupé : https://www.ochaopt.org/
